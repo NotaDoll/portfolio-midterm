@@ -1,3 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F5F2EE;
+  --color-blush: #F0E4E8;
+  --color-neutral: #D9CDD4;
+  --color-brown: #7A6068;
+  --color-dark: #2E2028;
+  --color-lavender: #AB9CB1;
+  --color-purple: #7C6B8A;
+} 
