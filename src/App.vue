@@ -326,6 +326,47 @@
     </div>
   </div>
 </section>
+
+      <!-- Contact Form Section -->
+      <section id="contact" class="py-24 px-6 bg-gradient-to-b from-white/30 to-blush/30">
+        <div class="max-w-2xl mx-auto">
+          <div class="text-center mb-12">
+            <p class="text-purple font-sans text-xs tracking-widest uppercase mb-2">get in touch</p>
+            <h2 class="font-serif text-4xl text-dark">Contact Me</h2>
+            <div class="w-16 h-px bg-lavender mx-auto mt-4"></div>
+            <p class="font-sans text-brown mt-4 text-base">I'd love to hear about your project or just say hello.</p>
+          </div>
+
+          <form action="https://formspree.io/f/{your-form-id}" method="POST" class="bg-white/80 backdrop-blur-sm border border-neutral/50 rounded-3xl p-8 shadow-lg">
+            <div class="mb-5">
+              <label for="name" class="block font-sans text-sm font-medium text-dark mb-2">Full Name <span class="text-lavender">*</span></label>
+              <input type="text" id="name" name="name" required
+                     class="w-full px-4 py-3 border border-neutral/60 rounded-xl bg-cream/50 focus:outline-none focus:ring-2 focus:ring-lavender focus:border-transparent transition font-sans">
+            </div>
+            
+            <div class="mb-5">
+              <label for="email" class="block font-sans text-sm font-medium text-dark mb-2">Email Address <span class="text-lavender">*</span></label>
+              <input type="email" id="email" name="email" required
+                     class="w-full px-4 py-3 border border-neutral/60 rounded-xl bg-cream/50 focus:outline-none focus:ring-2 focus:ring-lavender focus:border-transparent transition font-sans">
+            </div>
+
+            <div class="mb-6">
+              <label for="message" class="block font-sans text-sm font-medium text-dark mb-2">Message <span class="text-lavender">*</span></label>
+              <textarea id="message" name="message" rows="4" required
+                        class="w-full px-4 py-3 border border-neutral/60 rounded-xl bg-cream/50 focus:outline-none focus:ring-2 focus:ring-lavender focus:border-transparent transition font-sans"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" 
+                      class="bg-dark text-cream font-sans text-sm px-8 py-3 rounded-full shadow-md hover:bg-lavender transition-colors duration-300 w-full sm:w-auto">
+                Send Message
+              </button>
+            </div>
+            <p class="text-xs text-center text-brown/60 mt-4 font-sans">All fields marked with <span class="text-lavender">*</span> are required.</p>
+          </form>
+        </div>
+      </section>
+
     <!-- Lightbox Modal -->
     <Teleport to="body">
       <div 
@@ -359,23 +400,29 @@
     </Teleport>
   </main>
 
+   <!-- Footer -->
     <footer class="bg-dark text-cream py-14 px-6">
       <div class="max-w-3xl mx-auto text-center">
         <div class="w-10 h-px bg-lavender mx-auto mb-6 opacity-60"></div>
         <p class="font-serif text-3xl mb-3">barbie royo</p>
         <p class="font-sans text-sm text-cream/60 italic tracking-wide max-w-xs mx-auto leading-relaxed">
-          "She is both soft and strong — like lavender after rain."
+          "Designing with intention, creating with heart."
         </p>
-        <div class="mt-8 flex justify-center gap-6 text-xs font-sans text-cream/40 tracking-widest uppercase">
+        <div class="mt-8 flex justify-center gap-6 text-xs font-sans text-cream/40 tracking-widest uppercase flex-wrap">
           <a href="#about" class="hover:text-cream/80 transition-colors">About</a>
           <span>·</span>
-          <a href="#likes" class="hover:text-cream/80 transition-colors">Likes</a>
+          <a href="#hobbies" class="hover:text-cream/80 transition-colors">Hobbies</a>
           <span>·</span>
-          <a href="#plans" class="hover:text-cream/80 transition-colors">Plans</a>
+          <a href="#projects" class="hover:text-cream/80 transition-colors">Projects</a>
+          <span>·</span>
+          <a href="#certificates" class="hover:text-cream/80 transition-colors">Certificates</a>
+          <span>·</span>
+          <a href="#contact" class="hover:text-cream/80 transition-colors">Contact</a>
         </div>
-        <p class=" mt-8 text-cream/25 text-xs font-sans">© 2026 Barbie Royo</p>
+        <p class="mt-8 text-cream/25 text-xs font-sans">© 2026 Barbie Angel Joy Royo</p>
       </div>
     </footer>
+
   </div>
 </template>
 
@@ -408,7 +455,7 @@ const closeLightbox = () => {
 
 <style>
 html { scroll-behavior: smooth; }
-body { font-family: 'DM Sans', sans-serif; background-color: #F5F2EE; }
+body { font-family: 'Montserrat', sans-serif; background-color: #F5F2EE; }
 
 .fade-in { opacity: 0; transform: translateY(24px); animation: fadeUp 0.8s ease forwards; }
 .fade-in:nth-child(2) { animation-delay: 0.15s; }
