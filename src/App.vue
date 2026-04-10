@@ -113,7 +113,250 @@
         </div>
       </section>
 
+      <!-- Projects Section -->
+<section id="projects" class="py-24 px-6 bg-blush/20">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-14">
+      <p class="text-purple font-sans text-xs tracking-widest uppercase mb-2">my work</p>
+      <h2 class="font-serif text-4xl text-dark">Projects & Prototypes</h2>
+      <div class="w-16 h-px bg-lavender mx-auto mt-4"></div>
+      <p class="font-sans text-brown mt-4 text-base max-w-lg mx-auto">A selection of UI/UX designs I've created — from travel planning to food delivery.</p>
+    </div>
 
+    <div class="space-y-8">
+      
+      <!-- Project 1: TourMate -->
+      <article class="card-hover bg-white/90 backdrop-blur-sm border border-neutral/40 rounded-3xl overflow-hidden shadow-sm">
+        <!-- Prototype Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 p-4 bg-cream/50">
+          <img 
+            src="/images/project1/home.png" 
+            alt="TourMate Home" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project1/home.png', 'TourMate - Home Screen')"
+          />
+          <img 
+            src="/images/project1/Plantrip.date.png" 
+            alt="TourMate Pick Date" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project1/Plantrip.date.png', 'TourMate - Pick Date Screen')"
+          />
+          <img 
+            src="/images/project1/Plantrip.accommodation.png" 
+            alt="TourMate Accommodation" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project1/Plantrip.accommodation.png', 'TourMate - Select Accommodation Screen')"
+          />
+          <img 
+            src="/images/project1/accomm1.png" 
+            alt="TourMate Hostel Detail" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project1/accomm1.png', 'TourMate - Accommodation Detail Screen')"
+          />
+        </div>
+        
+        <div class="p-6 sm:p-8">
+          <div class="flex flex-wrap items-start justify-between gap-4 mb-3">
+            <h3 class="font-serif text-2xl text-dark">tourmate</h3>
+            <span class="bg-lavender/30 text-dark text-xs px-3 py-1 rounded-full border border-lavender/40 font-sans">Figma Prototype</span>
+          </div>
+          <p class="font-sans text-brown leading-relaxed mb-5 max-w-2xl">
+            A travel planning mobile app that helps users discover destinations, browse accommodations, 
+            and plan their trip dates — all in one beautifully designed place.
+          </p>
+          <a href="https://www.figma.com/design/yEc5b6bCAwcqUFQ5NLzBfw/tourmate-app?node-id=0-1&t=Eu6p8hahA0ol2594-1" 
+             target="_blank" 
+             class="inline-flex items-center gap-2 bg-dark text-cream font-sans text-sm px-6 py-2.5 rounded-full hover:bg-lavender transition-colors duration-300">
+            <span>View on Figma</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Project 2: Food Delivery App -->
+      <article class="card-hover bg-white/90 backdrop-blur-sm border border-neutral/40 rounded-3xl overflow-hidden shadow-sm">
+        <!-- Prototype Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 p-4 bg-cream/50">
+          <img 
+            src="/images/project2/home.png" 
+            alt="Food Delivery Home" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project2/home.png', 'Food Delivery App - Home Screen')"
+          />
+          <img 
+            src="/images/project2/view-burger.png" 
+            alt="Food Delivery View Item" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project2/view-burger.png', 'Food Delivery App - Item Detail Screen')"
+          />
+          <img 
+            src="/images/project2/cart-checkout.png" 
+            alt="Food Delivery Cart" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project2/cart-checkout.png', 'Food Delivery App - Cart Checkout Screen')"
+          />
+          <img 
+            src="/images/project2/order-tracking.png" 
+            alt="Food Delivery Tracking" 
+            class="w-full h-auto rounded-lg border border-neutral/30 shadow-sm bg-white cursor-pointer hover:scale-[1.02] transition-transform duration-300"
+            @click="openLightbox('/images/project2/order-tracking.png', 'Food Delivery App - Order Tracking Screen')"
+          />
+        </div>
+        
+        <div class="p-6 sm:p-8">
+          <div class="flex flex-wrap items-start justify-between gap-4 mb-3">
+            <h3 class="font-serif text-2xl text-dark">Food Delivery App</h3>
+            <span class="bg-lavender/30 text-dark text-xs px-3 py-1 rounded-full border border-lavender/40 font-sans">Canva Prototype</span>
+          </div>
+          <p class="font-sans text-brown leading-relaxed mb-5 max-w-2xl">
+            A warm, appetizing mobile UI for food delivery — browse restaurants, view menu items, 
+            add to cart, and track orders in real time. Designed with a cozy, inviting color palette.
+          </p>
+
+          <a href="https://www.canva.com/design/DAG1LpqL1Og/vusPZfdDrWZas_6GNxu00Q/view" 
+             target="_blank" 
+             class="inline-flex items-center gap-2 bg-dark text-cream font-sans text-sm px-6 py-2.5 rounded-full hover:bg-lavender transition-colors duration-300">
+            <span>View on Canva</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+    
+    <p class="text-center font-sans text-xs text-brown/60 mt-8 italic">
+      Designed with Figma & Canva — more projects coming soon!
+    </p>
+  </div>
+</section> 
+
+<!-- Certificates Section -->
+<section id="certificates" class="py-24 px-6 bg-white/40">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-14">
+      <p class="text-purple font-sans text-xs tracking-widest uppercase mb-2">achievements</p>
+      <h2 class="font-serif text-4xl text-dark">SoloLearn Certificates</h2>
+      <div class="w-16 h-px bg-lavender mx-auto mt-4"></div>
+      <p class="font-sans text-brown mt-4 text-base max-w-md mx-auto">Validating my foundation in web technologies.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-6">
+      
+      <!-- Certificate 1: HTML -->
+      <article class="card-hover bg-white/90 backdrop-blur-sm border border-neutral/40 rounded-2xl overflow-hidden shadow-sm group">
+        <div 
+          class="aspect-[4/3] bg-gradient-to-br from-lavender/20 to-blush/30 p-4 flex items-center justify-center cursor-pointer relative"
+          @click="openLightbox('/images/certificates/Introduction-to-HTML-certificate.jpg', 'SoloLearn Certificate - Introduction to HTML')"
+        >
+          <img 
+            src="/images/certificates/Introduction-to-HTML-certificate.jpg" 
+            alt="HTML Certificate" 
+            class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300"
+          />
+          <!-- Hover overlay -->
+          <div class="absolute inset-0 bg-dark/0 group-hover:bg-dark/10 transition-colors duration-300 rounded-lg flex items-center justify-center">
+            <span class="opacity-0 group-hover:opacity-100 text-cream text-xs font-sans bg-dark/60 px-3 py-1.5 rounded-full backdrop-blur-sm transition-opacity">
+              View Certificate
+            </span>
+          </div>
+        </div>
+        <div class="p-5 text-center">
+          <h3 class="font-serif text-lg text-dark mb-1">Introduction to HTML</h3>
+          <p class="font-sans text-xs text-brown mb-2">SoloLearn</p>
+          <p class="font-sans text-sm text-brown leading-relaxed">
+            Semantic structure, tags, and building the web's foundation.
+          </p>
+        </div>
+      </article>
+
+      <!-- Certificate 2: CSS -->
+      <article class="card-hover bg-white/90 backdrop-blur-sm border border-neutral/40 rounded-2xl overflow-hidden shadow-sm group">
+        <div 
+          class="aspect-[4/3] bg-gradient-to-br from-lavender/20 to-blush/30 p-4 flex items-center justify-center cursor-pointer relative"
+          @click="openLightbox('/images/certificates/Introduction-to-CSS-certificate.jpg', 'SoloLearn Certificate - Introduction to CSS')"
+        >
+          <img 
+            src="/images/certificates/Introduction-to-CSS-certificate.jpg" 
+            alt="CSS Certificate" 
+            class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300"
+          />
+          <!-- Hover overlay -->
+          <div class="absolute inset-0 bg-dark/0 group-hover:bg-dark/10 transition-colors duration-300 rounded-lg flex items-center justify-center">
+            <span class="opacity-0 group-hover:opacity-100 text-cream text-xs font-sans bg-dark/60 px-3 py-1.5 rounded-full backdrop-blur-sm transition-opacity">
+              View Certificate
+            </span>
+          </div>
+        </div>
+        <div class="p-5 text-center">
+          <h3 class="font-serif text-lg text-dark mb-1">Introduction to CSS</h3>
+          <p class="font-sans text-xs text-brown mb-2">SoloLearn</p>
+          <p class="font-sans text-sm text-brown leading-relaxed">
+            Styling, layouts, and bringing designs to life.
+          </p>
+        </div>
+      </article>
+
+      <!-- Certificate 3: JavaScript -->
+      <article class="card-hover bg-white/90 backdrop-blur-sm border border-neutral/40 rounded-2xl overflow-hidden shadow-sm group">
+        <div 
+          class="aspect-[4/3] bg-gradient-to-br from-lavender/20 to-blush/30 p-4 flex items-center justify-center cursor-pointer relative"
+          @click="openLightbox('/images/certificates/Introduction-to-JavaScript-certificate.jpg', 'SoloLearn Certificate - Introduction to JavaScript')"
+        >
+          <img 
+            src="/images/certificates/Introduction-to-JavaScript-certificate.jpg" 
+            alt="JavaScript Certificate" 
+            class="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300"
+          />
+          <!-- Hover overlay -->
+          <div class="absolute inset-0 bg-dark/0 group-hover:bg-dark/10 transition-colors duration-300 rounded-lg flex items-center justify-center">
+            <span class="opacity-0 group-hover:opacity-100 text-cream text-xs font-sans bg-dark/60 px-3 py-1.5 rounded-full backdrop-blur-sm transition-opacity">
+              View Certificate
+            </span>
+          </div>
+        </div>
+        <div class="p-5 text-center">
+          <h3 class="font-serif text-lg text-dark mb-1">Introduction to JavaScript</h3>
+          <p class="font-sans text-xs text-brown mb-2">SoloLearn</p>
+          <p class="font-sans text-sm text-brown leading-relaxed">
+            Interactive elements and dynamic web behavior.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+    <!-- Lightbox Modal -->
+    <Teleport to="body">
+      <div 
+        v-if="showLightbox" 
+        class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-dark/90 backdrop-blur-sm"
+        @click="closeLightbox"
+      >
+        <!-- Close button -->
+        <button 
+          @click="closeLightbox"
+          class="absolute top-6 right-6 text-cream hover:text-white transition-colors z-10"
+          aria-label="Close lightbox"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <!-- Image container -->
+        <div 
+          class="relative max-w-5xl max-h-[90vh] w-full h-full flex items-center justify-center"
+          @click.stop
+        >
+          <img 
+            :src="lightboxImage" 
+            :alt="lightboxAlt"
+            class="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+          />
+        </div>
+      </div>
+    </Teleport>
   </main>
 
     <footer class="bg-dark text-cream py-14 px-6">
@@ -137,7 +380,30 @@
 </template>
 
 <script setup>
-// No logic needed for this static page
+import { ref } from 'vue'
+
+// Lightbox state
+const showLightbox = ref(false)
+const lightboxImage = ref('')
+const lightboxAlt = ref('')
+
+// Function to open lightbox
+const openLightbox = (imageSrc, imageAlt) => {
+  lightboxImage.value = imageSrc
+  lightboxAlt.value = imageAlt
+  showLightbox.value = true
+  // Prevent body scrolling when lightbox is open
+  document.body.style.overflow = 'hidden'
+}
+
+// Function to close lightbox
+const closeLightbox = () => {
+  showLightbox.value = false
+  lightboxImage.value = ''
+  lightboxAlt.value = ''
+  // Restore body scrolling
+  document.body.style.overflow = ''
+}
 </script>
 
 <style>
